@@ -4,7 +4,7 @@
         "height": 800,
         "title": "Calculatrice"
     },
-    "entry_scene": "Gravity/Simulation",
+    "entry_scene": "Trailers",
 
     "GravitationalConstant":100000
 }

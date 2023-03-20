@@ -1,0 +1,14 @@
+{
+    "fps_target": 60,
+    "physics_frame": 1,
+
+    "unit_vector_size_in_px": 50,
+
+    "background_color": [0,0,0],
+    "keys": {
+        "quitter": {
+            "trigger": ["K_ESCAPE"],
+            "callback": null
+        }
+    }
+}

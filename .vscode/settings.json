@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "python": "cd \"/home/nathan/Code/TrailerSimulationPOC/\" && py main.py",
+        "json": "cd \"/home/nathan/Code/TrailerSimulationPOC/\" && py main.py",
+    }
+}

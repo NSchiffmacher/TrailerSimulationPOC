@@ -60,7 +60,8 @@ class Vector2:
     # Multiplications
     def __mul__(self, other):
         if type(other) == Vector2:
-            return self.dot(other) # Dot product or cross product (3D...) ?
+            return Vector2(self.x * other.x, self.y * other.y)
+            # return self.dot(other) # Dot product or cross product (3D...) ?
 
         else:
             return Vector2(
