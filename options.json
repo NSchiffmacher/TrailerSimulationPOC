@@ -1,0 +1,10 @@
+{
+    "window": {
+        "width": 1200,
+        "height": 800,
+        "title": "Calculatrice"
+    },
+    "entry_scene": "Gravity/Simulation",
+
+    "GravitationalConstant":100000
+}

@@ -1,0 +1,30 @@
+{
+    "fps_target": 60,
+    "physics_frame": 1,
+
+    "background_color": [33, 48, 61],
+    "keys": {
+        "quitter": {
+            "trigger": ["K_ESCAPE"],
+            "callback": null
+        }
+    },
+
+    "side_margin": 0.035,
+    "result": {
+        "background": [93, 126, 134],
+        "radius": 10
+    },
+    "button": {
+        "margin": 0.01
+    },
+    "background": {
+        "color": [32, 33, 34],
+        "radius": 10
+    },
+    "text": {
+        "color": [230,230,230],
+        "margin": 0.02
+    },
+    "result_height_spacing": 0.05
+}

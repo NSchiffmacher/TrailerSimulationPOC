@@ -1,0 +1,16 @@
+{
+    "fps_target": 999,
+    "physics_frame": 4,
+
+    "background_color": [0,0,0],
+    "keys": {
+        "quitter": {
+            "trigger": ["K_ESCAPE"],
+            "callback": null
+        },
+        "swap": {
+            "trigger": ["K_e"],
+            "first_callback": "on_swap_scene"
+        }
+    }
+}

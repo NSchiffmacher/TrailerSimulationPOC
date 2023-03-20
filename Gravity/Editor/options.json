@@ -1,0 +1,44 @@
+{
+    "fps_target": 999,
+    "physics_frame": 1,
+
+    "path_draw_dt": 0.05,
+    "path_draw_steps": 500,
+    "path_draw_interval": 5,
+    "path_width_ratio": 0.10,
+
+    "background_color": [0,0,0],
+    "keys": {
+        "quitter": {
+            "trigger": ["K_ESCAPE"],
+            "callback": null
+        },
+        "on_swap_scene": {
+            "trigger": ["K_s"],
+            "first_callback": "on_swap_scene"
+        }
+    },
+
+    "side_panel": {
+        "anim_length": 1.5,
+        "radius": 15,
+        "background_color": [33, 48, 61],
+        "button": {
+            "colors": {
+                "normal": [0,255,0],
+                "hover": [0,200,0],
+                "pressed": [0,150,0],
+                "label": [255,255,255]
+            },
+            "size_x": 0.15,
+            "icon_right"  : "arrow-alt-circle-right",
+            "icon_left" : "arrow-alt-circle-left",
+            "font"  : "Gravity/fonts/FontAwesome.otf",
+            "font_size": 42
+        },
+        "size": {
+            "x": 0.35,
+            "y": 0.7
+        }
+    }
+}
